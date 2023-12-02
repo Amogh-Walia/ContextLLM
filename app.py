@@ -13,7 +13,7 @@ model = TinyLama()
 
 print("==============================================================================")
 
-model.Start_model("/home/varoo/Models/luna-ai-llama2-uncensored.Q5_0.gguf")
+model.Start_model("/home/amogh/luna-ai-llama2-uncensored.Q5_0.gguf")
 
 app = Flask(__name__)
 # run_with_ngrok(app) 
